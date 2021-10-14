@@ -10,6 +10,7 @@ public class BondeHit : MonoBehaviour
     {
         scoretext.text = ("Score: " + 1);
         new Vector3(0, -50, -20);
+        
     }
     // Start is called before the first frame update
     void Start()
