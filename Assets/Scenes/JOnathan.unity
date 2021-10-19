@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 909885223}
   - component: {fileID: 909885222}
   - component: {fileID: 909885225}
+  - component: {fileID: 909885226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -366,6 +367,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: {x: 0, y: 0}
   frequency: {x: 0, y: 0}
+--- !u!114 &909885226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909885221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03424de40409704f9862d4590e3823e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundtrack:
+  - {fileID: 8300000, guid: ca64bf61291073541a0d117529fc81c1, type: 3}
 --- !u!1 &1011362407
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ad7379dfb5041c4ca3f78f7e874b6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundtrack:
+  - {fileID: 8300000, guid: 191531fb98aaeb7448f0f911bc309c04, type: 3}
   scoretext: {fileID: 0}
 --- !u!1 &1638280688
 GameObject:
