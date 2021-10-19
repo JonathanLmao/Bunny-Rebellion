@@ -4,6 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Bb]unny Rebellion/
+
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -36,3 +38,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Logs/Packages-Update.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Logs/shadercompiler-UnityShaderCompiler.exe1.log
+Logs/shadercompiler-UnityShaderCompiler.exe2.log
+Logs/shadercompiler-UnityShaderCompiler.exe3.log
+Logs/shadercompiler-UnityShaderCompiler.exe4.log
