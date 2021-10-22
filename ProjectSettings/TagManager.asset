@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "Gr\xF6nsak"
+  - Bonde
+  - MorotSpawner
+  - SalladSpawner
+  - Morot
+  - Sallad
   layers:
   - Default
   - TransparentFX
