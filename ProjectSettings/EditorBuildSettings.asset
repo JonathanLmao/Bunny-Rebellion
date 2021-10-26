@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Meny.unity
     guid: e738c0d9a0ba66146bb497d49ff5e134
   - enabled: 1
-    path: Assets/Scenes/starting cutscene.unity
-    guid: 0f964ac5486ef414dbb45a2f0cb1eec3
-  - enabled: 1
     path: Assets/Scenes/JOnathan.unity
     guid: bb1f226357ca740428889826cded535a
   m_configObjects: {}
