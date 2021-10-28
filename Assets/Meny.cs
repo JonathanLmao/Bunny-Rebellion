@@ -9,4 +9,3 @@ public class Meny : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
-//Startar spelet när PLAY-knappen trycks på, Victor
