@@ -6,9 +6,10 @@ public class CameraShake : MonoBehaviour
 {
     public Vector2 amplitude;
     public Vector2 frequency;
-    Vector2 tid = Vector2.zero;
+    public Vector2 tid = Vector2.zero;
     static bool shouldShake;
     static float shakeTime;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +22,6 @@ public class CameraShake : MonoBehaviour
     {
         tid.x += Time.deltaTime;
         tid.y += Time.deltaTime;
+        
     }
 }
