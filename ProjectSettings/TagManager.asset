@@ -10,6 +10,7 @@ TagManager:
   - SalladSpawner
   - Morot
   - Sallad
+  - SalladSkott
   layers:
   - Default
   - TransparentFX
