@@ -6,6 +6,7 @@ public class Skott : MonoBehaviour
 {
     public float speed = 20f;
     Rigidbody2D rb;
+    CameraShake cs;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,7 @@ public class Skott : MonoBehaviour
                         Destroy(nearbyObject.gameObject);
                     }
                 }
+                cs.shake(1.5f,new Vector2(3,5),new Vector2(2, 5));
             }
             Destroy(gameObject);
         }
