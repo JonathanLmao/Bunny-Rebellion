@@ -31,16 +31,15 @@ public class BondeSpawner : MonoBehaviour
         borderRight.localScale = new Vector2(0.1f, Screen.height);
         borderBot.localScale = new Vector2(Screen.width, 0.1f);
         borderTop.localScale = new Vector2(Screen.width, 0.1f);
+        
+        StartCoroutine(CreateBonde());
+        spawning = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) && !spawning)
-        {
-            StartCoroutine(CreateBonde());
-            spawning = true;
-        }
+
     }
     void SpawnBonde() //Skapar en bonde slumpmässigt emellan de fyra väggarna -William
     {

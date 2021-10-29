@@ -10,6 +10,7 @@ public class CameraShake : MonoBehaviour
     static bool shouldShake;
     static float shakeTime;
     // Update is called once per frame
+    //Skakar kameran -William
     void Update()
     {
         tid.x += Time.deltaTime * frequency.x;
