@@ -10,12 +10,16 @@ public class BondeHit : MonoBehaviour
     public List<AudioClip> soundtrack;
     //En variabel för ljudkällan
     AudioSource mySource;
+    //En variabel som låter oss göra text i canvasen till poängvärdet
     public Text scoretext;
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        scoretext.text = ("Score: " + 1);
-        new Vector3(0, -50, -20);
-        mySource.clip = soundtrack[1];
+        if (collision.gameObject.CompareTag("MorotSkott") || collision.gameObject.CompareTag("SalladSkott"));
+        {
+            scoretext.text = ("Score: " + 1);
+            new Vector3(0, -50, -20);
+            mySource.clip = soundtrack[1];
+        }
     }
     // Start is called before the first frame update
     void Start()
