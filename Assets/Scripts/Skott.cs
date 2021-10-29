@@ -10,6 +10,7 @@ public class Skott : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cs = FindObjectOfType<CameraShake>();
         rb = GetComponent<Rigidbody2D>();
         //När skottet skapas så börjar den direkt åka med konstant hastighet i en viss riktning -William
         rb.velocity = transform.up * speed;
@@ -20,17 +21,22 @@ public class Skott : MonoBehaviour
         if (collision.gameObject.CompareTag("Bonde"))
         {
             Destroy(collision.gameObject);
+            //Förstör även närliggande bönder ifall man träffar med ett salladskott -William
             if (gameObject.CompareTag("SalladSkott"))
             {
                 Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 5f);
-                foreach  (Collider2D nearbyObject in colliders)
+                foreach (Collider2D nearbyObject in colliders)
                 {
                     if (nearbyObject.CompareTag("Bonde"))
                     {
                         Destroy(nearbyObject.gameObject);
                     }
                 }
-                cs.shake(1.5f,new Vector2(3,5),new Vector2(2, 5));
+                cs.shake(0.3f, new Vector2(25, 30), new Vector2(0.3f, 0.3f));
+            }
+            else if (gameObject.CompareTag("MorotSkott")) 
+            {
+                cs.shake(0.1f, new Vector2(20, 20), new Vector2(0.25f, 0.25f));
             }
             Destroy(gameObject);
         }

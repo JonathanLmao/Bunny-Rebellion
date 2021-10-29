@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b098b519c2d76141907fb91c76f3572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  morotPrefab: {fileID: 8502613525350645869, guid: 20044340e26294844a80d3e07ed3eb80, type: 3}
-  salladPrefab: {fileID: 765265136054000478, guid: 8426ea5e3b735ec4da213bb36b519b77, type: 3}
+  morotPrefab: {fileID: 8502613525350645869, guid: 2c5c4d4b8a7fcb84593f975c066c451c, type: 3}
+  salladPrefab: {fileID: 765265136054000478, guid: ccd6d3fd21d13d0438315e969c56cbec, type: 3}
 --- !u!61 &284369374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284369372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.56, y: 0, z: 0}
+  m_LocalPosition: {x: 7.56, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -301,8 +301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b098b519c2d76141907fb91c76f3572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  morotPrefab: {fileID: 8502613525350645869, guid: 20044340e26294844a80d3e07ed3eb80, type: 3}
-  salladPrefab: {fileID: 765265136054000478, guid: 8426ea5e3b735ec4da213bb36b519b77, type: 3}
+  morotPrefab: {fileID: 8502613525350645869, guid: 2c5c4d4b8a7fcb84593f975c066c451c, type: 3}
+  salladPrefab: {fileID: 765265136054000478, guid: ccd6d3fd21d13d0438315e969c56cbec, type: 3}
 --- !u!61 &397859370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -386,7 +386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397859368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.92, y: 0, z: 0}
+  m_LocalPosition: {x: 3.92, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -959,8 +959,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b098b519c2d76141907fb91c76f3572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  morotPrefab: {fileID: 8502613525350645869, guid: 20044340e26294844a80d3e07ed3eb80, type: 3}
-  salladPrefab: {fileID: 765265136054000478, guid: 8426ea5e3b735ec4da213bb36b519b77, type: 3}
+  morotPrefab: {fileID: 8502613525350645869, guid: 2c5c4d4b8a7fcb84593f975c066c451c, type: 3}
+  salladPrefab: {fileID: 765265136054000478, guid: ccd6d3fd21d13d0438315e969c56cbec, type: 3}
 --- !u!61 &1613268865
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1065,7 +1065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613268863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.48, y: -0.06, z: 0}
+  m_LocalPosition: {x: -7.48, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1227,7 +1227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812459883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 1745076347}
@@ -1261,8 +1261,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e7f26372f8e5f4bb7b23eb44e1f6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriterenderer: {fileID: 0}
   speed: 20
   maxDistance: 50
+  animator: {fileID: 0}
 --- !u!1 &1895075278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,7 +1498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925850836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.62, y: -0.06, z: 0}
+  m_LocalPosition: {x: -3.62, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1514,8 +1516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b098b519c2d76141907fb91c76f3572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  morotPrefab: {fileID: 8502613525350645869, guid: 20044340e26294844a80d3e07ed3eb80, type: 3}
-  salladPrefab: {fileID: 765265136054000478, guid: 8426ea5e3b735ec4da213bb36b519b77, type: 3}
+  morotPrefab: {fileID: 8502613525350645869, guid: 2c5c4d4b8a7fcb84593f975c066c451c, type: 3}
+  salladPrefab: {fileID: 765265136054000478, guid: ccd6d3fd21d13d0438315e969c56cbec, type: 3}
 --- !u!1 &2132443325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1530,7 @@ GameObject:
   - component: {fileID: 2132443327}
   - component: {fileID: 2132443326}
   - component: {fileID: 2132443329}
+  - component: {fileID: 2132443330}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1612,9 +1615,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b213c678755a9e41b13864bdbc77b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bondePrefab: {fileID: 1571966217408953702, guid: 508f3a2d7504f1842920131f811ce752, type: 3}
+  bondePrefab: {fileID: 1571966217408953702, guid: b1bf69e1841606e48aafd1ad8d047400, type: 3}
   borderTop: {fileID: 1132878225}
   borderBot: {fileID: 927932691}
   borderLeft: {fileID: 1895075279}
   borderRight: {fileID: 985358853}
   spawning: 0
+--- !u!114 &2132443330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132443325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa473d881bacd0e45935744a2089bca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: {x: 50, y: 60}
+  frequency: {x: 60, y: 607}
+  tid: {x: 0, y: 0}
